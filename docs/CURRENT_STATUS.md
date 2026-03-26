@@ -2,54 +2,66 @@
 
 _Обновляй этот файл по ходу работы_
 
-## Статус: 🟡 В разработке
+## Статус: 🟢 Foundation завершен, готово к развитию
 
 ---
 
 ## ✅ Завершено
-- [ ] Архитектура и документация
+- [x] Архитектура и документация
+- [x] Инициализирован Next.js проект (App Router + TypeScript + Tailwind)
+- [x] Установлены зависимости: `framer-motion`, `zustand`, `canvas-confetti`, `lucide-react` и базовый tooling
+- [x] Настроены `tailwind.config.ts`, `postcss.config.js`, `tsconfig.json`, `next.config.ts`
+- [x] Подготовлен `globals.css` с CSS-переменными тем
+- [x] Создана структура `src/` по архитектуре
+- [x] Добавлены базовые UI/sections/effects/hooks/store/lib/types компоненты
+- [x] Настроен `.gitignore`
+- [x] Проверен запуск: `npm run build` проходит успешно
+- [x] Проект подключен к GitHub: `https://github.com/oo9821480-lab/Vibe-Coding-Playground.git`
+- [x] Сделан и запушен первый коммит (`365c9bc`)
 
 ## 🔄 В работе
-- [ ] Инициализация проекта
+- [ ] Развитие контента секций и интерактивных демо до полного соответствия задумке
 
 ## 📋 Backlog
 
 ### Этап 1 — Foundation (День 1, утро)
-- [ ] `npx create-next-app@latest` с TypeScript + Tailwind
-- [ ] Установить зависимости: `framer-motion`, `zustand`, `canvas-confetti`, `lucide-react`
-- [ ] Настроить `tailwind.config.ts` (кастомные цвета, анимации)
-- [ ] Написать `globals.css` с CSS переменными для обеих тем
-- [ ] Создать `utils.ts` с функцией `cn()`
-- [ ] Создать `themeStore.ts` в Zustand
-- [ ] Создать `SectionWrapper.tsx` и `SectionHeader.tsx`
-- [ ] Создать `GlassCard.tsx` и `GlowButton.tsx`
-- [ ] Создать `ThemeToggle.tsx`
-- [ ] Создать `Navbar.tsx`
+- [x] `npx create-next-app@latest` с TypeScript + Tailwind
+- [x] Установить зависимости: `framer-motion`, `zustand`, `canvas-confetti`, `lucide-react`
+- [x] Настроить `tailwind.config.ts` (кастомные цвета, анимации)
+- [x] Написать `globals.css` с CSS переменными для обеих тем
+- [x] Создать `utils.ts` с функцией `cn()`
+- [x] Создать `themeStore.ts` в Zustand
+- [x] Создать `SectionWrapper.tsx` и `SectionHeader.tsx`
+- [x] Создать `GlassCard.tsx` и `GlowButton.tsx`
+- [x] Создать `ThemeToggle.tsx`
+- [x] Создать `Navbar.tsx`
 
 ### Этап 2 — Hero Section (День 1, середина)
-- [ ] `AnimatedBackground.tsx` — mesh gradient анимация
-- [ ] `HeroSection.tsx` — текст, кнопка, анимация входа
+- [x] `AnimatedBackground.tsx` — mesh gradient анимация (базовая версия)
+- [x] `HeroSection.tsx` — текст, кнопка, анимация входа (базовая версия)
 - [ ] Проверить на мобильном
 
 ### Этап 3 — Секции контента (День 1, вечер)
-- [ ] `AnimationsSection.tsx` — 4 карточки с демо
-- [ ] `InteractivitySection.tsx` — конфетти, морфинг, слайдеры
-- [ ] `VisualEffectsSection.tsx` — 6 эффект-карточек
-- [ ] `ResponsiveSection.tsx` — переключатель устройств
+- [x] `AnimationsSection.tsx` — 4 карточки с демо (базовый каркас)
+- [x] `InteractivitySection.tsx` — конфетти, морфинг, слайдеры (базовый каркас + confetti)
+- [x] `VisualEffectsSection.tsx` — 6 эффект-карточек (базовый каркас)
+- [x] `ResponsiveSection.tsx` — переключатель устройств (базовый плейсхолдер)
 
 ### Этап 4 — Polish (День 2)
-- [ ] `Footer.tsx` с CTA
+- [x] `Footer.tsx` с CTA
 - [ ] Переключатель тем — полная проверка
 - [ ] Проверка всех анимаций на мобильном
 - [ ] `prefers-reduced-motion` поддержка
-- [ ] Meta теги, og:image
+- [x] Meta теги, og:image (базовые)
 - [ ] Деплой на Vercel
 
 ---
 
 ## Известные проблемы
-_Пусто_
+- Некоторые секции пока реализованы как базовый каркас (без полного набора продвинутых анимаций).
+- `public/favicon.ico` и `public/og-image.png` пока технические заглушки, нужны финальные ассеты.
 
 ## Заметки
 - При работе в Cursor: открой папку `docs/` в side panel для контекста
 - Используй `@docs/ARCHITECTURE.md` в промптах для Cursor
+- Git remote подключен, первая публикация в `origin/main` выполнена.
