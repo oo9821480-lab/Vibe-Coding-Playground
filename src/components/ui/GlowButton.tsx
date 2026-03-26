@@ -1,0 +1,1 @@
+"use client"; export default function GlowButton({ children, onClick }: { children: React.ReactNode; onClick?: () => void }) { return <button onClick={onClick} className="rounded-xl px-4 py-2" style={{ background: "var(--accent-1)", boxShadow: "0 0 30px var(--glow)" }}>{children}</button>; }

@@ -1,0 +1,1 @@
+"use client"; import { useTheme } from "@/hooks/useTheme"; export default function ThemeToggle() { const { theme, toggleTheme } = useTheme(); return <button onClick={toggleTheme} className="rounded-lg border border-border px-3 py-1">{theme === "dark" ? "Light" : "Dark"}</button>; }

@@ -1,0 +1,1 @@
+export default function AnimatedBackground() { return <div className="absolute inset-0 -z-10 opacity-60" style={{ background: "radial-gradient(circle at 30% 30%, var(--accent-1), transparent 40%), radial-gradient(circle at 70% 60%, var(--accent-2), transparent 40%)" }} />; }
