@@ -49,7 +49,7 @@ export default function HeroSection() {
           animate="visible"
         >
           <motion.h1
-            className="text-5xl font-extrabold tracking-tight text-text sm:text-6xl md:text-7xl md:leading-[1.06]"
+            className="text-3xl font-extrabold leading-snug tracking-tight text-text sm:text-5xl sm:leading-tight md:text-6xl md:leading-[1.08] lg:text-7xl lg:leading-[1.06]"
             variants={itemVariants}
           >
             Vibe Coding Playground
