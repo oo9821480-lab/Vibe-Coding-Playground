@@ -10,6 +10,10 @@ export default {
         border: "var(--border)",
         text: "var(--text)",
         muted: "var(--text-muted)"
+      },
+      transitionDuration: {
+        DEFAULT: "300ms",
+        200: "300ms"
       }
     }
   },
